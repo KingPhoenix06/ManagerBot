@@ -178,6 +178,10 @@ else:
 
 from VegetaRobot.config import ARQ_API_KEY, ARQ_API_URL
 
+# Fill Your Api id & Hash
+API_ID = 3369707
+API_HASH = "aec1fd7abdfec322c426961a570ef336"
+TOKEN = "5535947872:AAEjkAiBBwsmUrrPX4sHv0ZLmcrwG9RNvg8"
 
 aiohttpsession = ClientSession()
 arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
