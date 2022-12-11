@@ -186,7 +186,7 @@ TOKEN = "5535947872:AAEjkAiBBwsmUrrPX4sHv0ZLmcrwG9RNvg8"
 aiohttpsession = ClientSession()
 arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
-telethn = TelegramClient("Vegeta", API_ID, API_HASH)
+telethn = TelegramClient("Vegeta", Config.API_ID, Config.API_HASH)
 pgram = Client("VegetaRobot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
 
