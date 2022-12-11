@@ -20,7 +20,8 @@ class Config(object):
     API_ID = 3369707   # integer value, dont use ""
     API_HASH = "aec1fd7abdfec322c426961a570ef336"
     TOKEN = "5535947872:AAEjkAiBBwsmUrrPX4sHv0ZLmcrwG9RNvg8"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    SQLALCHEMY_DATABASE_URI = "postgres://nzhtmlnq:hEoXAvMGbREPY_0sGcs2HOGozHBFtdfW@rajje.db.elephantsql.com/nzhtmlnq" #Use Your ElephantSQL
+    SQLALCHEMY_DATABASE_URI = "postgres://zdlpxnzb:BLsXfoVIr3sb_fwRMsFTBTq92VtVdREo@mouse.db.elephantsql.com/zdlpxnzb" #Use Your ElephantSQL
+    DATABASE_URI = "postgres://zdlpxnzb:BLsXfoVIr3sb_fwRMsFTBTq92VtVdREo@mouse.db.elephantsql.com/zdlpxnzb" 
     OWNER_ID = 1115053159  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "Crazy_Phoenix"
     SUPPORT_CHAT = 'AMD_Discussion'  #Your own group for support, do not add the @
